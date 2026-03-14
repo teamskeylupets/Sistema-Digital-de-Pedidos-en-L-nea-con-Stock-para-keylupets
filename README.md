@@ -96,7 +96,139 @@ Las respuestas de este bloque revelan dos necesidades fundamentales que deben gu
 ***Respuesta:***
 
 
+ ## **Entreveista Gerente**
+
+
+-Objetivo de la entrevista: Identificar las necesidades reales de Keylupets frente a la transición del registro manual a un sistema digitalizado, definiendo los requerimientos clave para la gestión del inventario y la implementación del módulo de ventas (carrito de compras). 
+
+
+**Bloque 1: Diagnóstico del proceso actual y transición**
+
+
+**P1:** Actualmente el registro de entradas y salidas se lleva en un cuaderno. ¿Cuál es el mayor desafío o el error más frecuente que enfrentan al momento de cuadrar la mercancía física con lo que está anotado?
+**Respuesta** El principal en keylupets es que el registro manual en cuaderno genera errores como olvidos o anotaciones incompletas, lo que provoca diferencias entre el inventario físico y el registrado.
+
+
+**P2:** Considerando que el equipo pasará de usar papel a un software, ¿qué aspecto del nuevo sistema (ej. buscar productos, registrar pagos) consideran que debe ser el más sencillo e intuitivo para que la adaptación sea rápida?
+**Respuesta:** La interfaz tenga modo de búsqueda fácil y filtros con las categorías para que sea más rápido. 
+
+
+´´´***Análisis descriptivo - Diagnóstico del proceso actual y transición ´´´***
+
+
+***Análisis Pregunta P1:**** El entrevistado identifica el factor humano como la principal fuente de error en el proceso actual. Los olvidos y las anotaciones incompletas son consecuencias naturales de un sistema que depende exclusivamente de la memoria y disciplina de quien registra. Esta situación genera una brecha de información que impide conocer con exactitud el estado real del inventario, afectando directamente la capacidad del negocio para responder a la demanda de sus clientes y tomar decisiones de reabastecimiento oportunas.
+
+
+***Análisis Pregunta P2:*** La respuesta refleja una preocupación legítima por la curva de aprendizaje que implica pasar del papel a un sistema digital. El entrevistado no señala una funcionalidad técnica compleja, sino algo concreto y cotidiano: encontrar productos rápido. Esto indica que la velocidad de búsqueda es un criterio de éxito para el equipo, y que el sistema debe diseñarse pensando en reducir al mínimo los pasos necesarios para localizar un producto durante la atención al cliente.
+
+
+##***Análisis General del Bloque 1***
+
+
+Las respuestas de este bloque revelan dos necesidades fundamentales que deben guiar el desarrollo del sistema. Por un lado, la automatización del registro de inventario es urgente e innegociable: el método actual no ofrece confiabilidad y expone al negocio a pérdidas de información y errores operativos. Por otro lado, la facilidad de uso es tan importante como la funcionalidad misma; un sistema potente pero difícil de usar será rechazado o subutilizado. En conjunto, estos hallazgos establecen que el sistema debe ser preciso, automatizado y, sobre todo, simple de operar desde el primer día. 
+
+
+***Bloque 2: Estructura y control del Inventario***
+
+
+***P1:*** Teniendo en cuenta la variedad de alimentos, juguetes y accesorios, ¿qué características específicas (como marca, peso del bulto, etapa de la mascota) son indispensables para clasificar y buscar un producto rápidamente en el sistema? 
+***Respuesta:*** Para comida marca, peso del bulto, etapa de la mascota, para accesorio o juguetes tipo, color, marca. 
+
+***P2:*** Para evitar quedarse sin mercancía, ¿con qué nivel de stock (cantidad mínima) de los productos de mayor rotación consideran que el sistema debería generar una alerta automática de reabastecimiento? 
+***Respuesta*** Minimo con 3
+
+
+***P3:*** Al finalizar la semana o el mes, ¿qué tipo de información les resultaría más útil ver en un reporte de inventario para tomar decisiones sobre qué productos comprar más o cuáles promocionar? 
+***Respuesta:*** Que en el reporte aparezcan los más vendidos y los que menos se tenga stock.
+
+
+***´´´Análisis Descriptivo, Bloque N2´´´***
+
+***Analisis:*** La definición de un umbral concreto de 3 unidades demuestra que el administrador tiene claridad sobre el ritmo de rotación de sus productos. Este valor permite al sistema actuar de forma preventiva antes de que un producto se agote por completo, dando margen para gestionar la compra a tiempo. Aunque 3 unidades es el parámetro establecido, es recomendable que este umbral sea configurable por producto, ya que algunos ítems pueden tener una rotación mucho más alta o baja que otros.
+
+
+***Analisis P1:*** Para Accesorios y juguetes, el tipo y el color son los diferenciadores principales. Esto indica que el sistema debe manejar un modelo de datos flexible, con campos específicos según la categoría del producto, evitando formularios genéricos que dificulten la búsqueda y clasificación. 
+
+***Analisis P2:***Este valor permite al sistema actuar de forma preventiva antes de que un producto se agote por completo, dando margen para gestionar la compra a tiempo. Aunque 3 unidades es el parámetro establecido, es recomendable que este umbral sea configurable por producto, ya que algunos ítems pueden tener una rotación mucho más alta o baja que otros.
+
+***Analisis P3:*** El entrevistado orienta los reportes hacia la acción: saber qué comprar más y qué promover. Los productos más vendidos deben mantenerse siempre disponibles, mientras que los de menor stock requieren atención inmediata.
+
+
+###***Análisis General del Bloque 2:*** Este bloque deja claro que el inventario de KeyluPets requiere un sistema flexible, con atributos diferenciados por tipo de producto, alertas automáticas de stock bajo y reportes que orienten decisiones de compra. Estos tres elementos definen el núcleo funcional del módulo de inventario 
+
+
+###***Bloque 3: Módulo de Ventas y Carrito de Compras***
+
+
+***P1:*** Durante una venta en el mostrador, ¿qué funcionalidades consideran vitales en el "carrito de compras" para agilizar la atención al cliente (ej. búsqueda rápida por nombre/código, cálculo automático de cambio, aplicación de descuentos)? 
+***Respuesta:*** Búsquedas por código, nombre precio, total, medio de pago y datos del cliente en caso de necesitar factura. 
+
+***P2:*** Cuando un cliente lleva varios artículos, ¿qué información visual necesitan que el carrito de compras muestre claramente en la pantalla antes de confirmar el cobro total?
+***Respuesta:*** Cantidad de cada producto y su descripción. 
+
+
+***P3:*** Si por algún error de conteo previo un producto figura disponible en el sistema, pero al momento de agregarlo al carrito de compras el vendedor nota que físicamente está dañado o no existe, ¿cómo prefieren que el sistema permita manejar esta corrección en medio de la venta?
+***Respuesta:***  Con un botón de restar en la parte derecha del producto. 
+
+
+***´´´Análisis Descriptivo, Bloque N3´´´*
+
+
+***Analisis P1:*** El cálculo automático del total elimina errores aritméticos, y el registro del medio de pago junto con los datos del cliente convierte cada venta en un registro formal y trazable. Estas funcionalidades indican que el carrito debe operar como una herramienta integral de ventas, no solo como una lista de productos.
+
+
+***Analisis P2:*** Antes de cerrar la venta, el vendedor necesita una pantalla de resumen clara que permita verificar que todo es correcto. Mostrar la cantidad y descripción de cada ítem reduce errores de cobro y genera confianza tanto en el vendedor como en el cliente. Esto define una pantalla de confirmación previa al pago como un paso obligatorio dentro del flujo de venta.
+
+
+***Analisis P3:***  La solución propuesta es simple y efectiva: un control directo sobre cada ítem del carrito sin necesidad de cancelar la venta. Esto refleja la necesidad de un flujo de venta continuo que permita correcciones sobre la marcha, minimizando interrupciones en la atención al cliente y evitando frustraciones tanto para el vendedor como para el comprador.
+
+
+###***Análisis General del Bloque 3***
+
+El módulo de ventas debe ser ágil, completo y tolerante a errores. Las respuestas de este bloque definen un carrito de compras con búsqueda flexible, resumen visual antes del cobro y controles de ajuste en tiempo real. En conjunto, estas funcionalidades garantizan una experiencia de venta fluida y confiable para el equipo de KeyluPets. 
+
+
+###***Bloque4: Seguridad, Roles y Proyeccion***
+
+
+***P1:*** Para proteger la información del negocio, ¿qué permisos específicos debería tener la persona que atiende en el mostrador (que usará principalmente el carrito de compras) frente a la persona encargada de administrar (que ingresará nueva mercancía al inventario)?
+***Respuesta:*** El personal que atiende solo acceso a registrar ventas y visualizar inventario, el administrador a agregar y borrar inventario además de ver reportes de ventas y administrar los usuarios. 
+
+
+***P2:***  Una vez que el carrito de compras procesa una venta y descuenta automáticamente el inventario, ¿les gustaría que el sistema guarde un historial asociando la compra a un cliente específico (para fidelización) o prefieren manejar únicamente ventas rápidas anónimas?
+***Respuesta:*** Me gustaría manejar el historial de lo que se vende y a quien ya que pude servir en caso de alguna devolución o reclamo. Bloque 5: Perfil del Usuario y Diseño Visual de la Interfaz (UI/UX) 
+
+
+***P3:(Datos personales y creacion de perfil):*** Para configurar el perfil principal de administrador en el nuevo sistema, ¿cargo exacto o rol que desempeña en el día a día de Keylupets?
+***Respuesta:*** Administrador
+
+
+***P4: (Experiencia y usabilidad):*** Pensando en la facilidad de uso del programa, ¿qué tan familiarizado está con el manejo de computadores o aplicaciones de ventas, y qué es lo que más le suele frustrar de los sistemas digitales que ha utilizado antes?
+***Respuesta:*** _He manejado sistemas de inventarios tanto en Excel como aplicaciones móviles lo más complejo ha sido aquellas interfaces que no son intuitivas. 
+
+
+***P5: (Colores e identidad visual):*** En cuanto a la apariencia visual del sistema y del carrito de compras, ¿cuáles son los colores representativos de Keylupets que le gustaría que destaquen en la pantalla y qué estilo de letra prefiere (por ejemplo, un estilo moderno y redondeado, o algo más clásico y formal)? 
+***Respuesta:***  Los colores pueden ser los del logo que son blanco y negro y una letra estilo moderno ya que es más llamativa. 
+
+
+***P6: (Manejo de imágenes en el catálogo):***  Para que la búsqueda en el inventario y en el carrito sea muy visual, ¿cómo le gustaría que se muestren los productos? ¿Prefiere que el sistema tenga fotos reales tomadas por ustedes, imágenes de catálogo de los proveedores, o prefiere una vista más rápida solo con texto e íconos?
+***Respuesta:*** Imagenes tomadas por nosotros.
+
+
+***P7: (Interacciones y alertas visuales):*** Cuando el vendedor realice una acción, como agregar un producto al carrito o confirmar una venta exitosa, ¿qué tipo de interacción prefiere que tenga el sistema? (Por ejemplo: un mensaje emergente en el centro de la pantalla, un sonido de confirmación tipo "caja registradora", o botones que cambien de color).
+
  
+***Respuesta:*** Una ventana emergente en la pantalla que diga algo como “venta exitosa” o “venta confirmada”.
+
+
+##***Análisis Descriptivo — Bloque 4: Seguridad, Roles y Proyección***
+
+
+***Analisis P1:***  El vendedor opera en un entorno restringido que le permite cumplir su función sin acceder a información sensible ni modificar el catálogo. El administrador tiene control total del sistema. Esta distinción protege la integridad de la información y evita modificaciones accidentales o no autorizadas, siendo un requisito de seguridad fundamental desde el inicio del desarrollo.
+
+
+***Análisis P2:*** La elección del historial trazable responde a una necesidad operativa concreta: respaldar decisiones ante devoluciones o reclamos. Esto implica que el sistema debe incluir un módulo básico de registro de clientes y asociar cada venta a un perfil, sentando además las bases para estrategias de fidelización a futuro. 
+
 
 
 
