@@ -78,6 +78,27 @@ Diseñar una plataforma web integral de gestión comercial bajo una arquitectura
 - Sistema de roles con dos perfiles: administrador y vendedor, con permisos diferenciados. 
 
 - Interfaz web con identidad visual de KeyluPets (blanco, negro, tipografía moderna). 
+## **Entreveista Gerente**
+
+-Objetivo de la entrevista: Identificar las necesidades reales de Keylupets frente a la transición del registro manual a un sistema digitalizado, definiendo los requerimientos clave para la gestión del inventario y la implementación del módulo de ventas (carrito de compras). 
+**Bloque 1: Diagnóstico del proceso actual y transición**
+**P1:** Actualmente el registro de entradas y salidas se lleva en un cuaderno. ¿Cuál es el mayor desafío o el error más frecuente que enfrentan al momento de cuadrar la mercancía física con lo que está anotado?
+**Respuesta** El principal en keylupets es que el registro manual en cuaderno genera errores como olvidos o anotaciones incompletas, lo que provoca diferencias entre el inventario físico y el registrado.
+**P2:** Considerando que el equipo pasará de usar papel a un software, ¿qué aspecto del nuevo sistema (ej. buscar productos, registrar pagos) consideran que debe ser el más sencillo e intuitivo para que la adaptación sea rápida?
+**Respuesta:** La interfaz tenga modo de búsqueda fácil y filtros con las categorías para que sea más rápido. 
+´´´***Análisis descriptivo - Diagnóstico del proceso actual y transición ´´´***
+***Análisis Pregunta P1:**** El entrevistado identifica el factor humano como la principal fuente de error en el proceso actual. Los olvidos y las anotaciones incompletas son consecuencias naturales de un sistema que depende exclusivamente de la memoria y disciplina de quien registra. Esta situación genera una brecha de información que impide conocer con exactitud el estado real del inventario, afectando directamente la capacidad del negocio para responder a la demanda de sus clientes y tomar decisiones de reabastecimiento oportunas.
+***Análisis Pregunta P2:*** La respuesta refleja una preocupación legítima por la curva de aprendizaje que implica pasar del papel a un sistema digital. El entrevistado no señala una funcionalidad técnica compleja, sino algo concreto y cotidiano: encontrar productos rápido. Esto indica que la velocidad de búsqueda es un criterio de éxito para el equipo, y que el sistema debe diseñarse pensando en reducir al mínimo los pasos necesarios para localizar un producto durante la atención al cliente.
+##***Análisis General del Bloque 1***
+Las respuestas de este bloque revelan dos necesidades fundamentales que deben guiar el desarrollo del sistema. Por un lado, la automatización del registro de inventario es urgente e innegociable: el método actual no ofrece confiabilidad y expone al negocio a pérdidas de información y errores operativos. Por otro lado, la facilidad de uso es tan importante como la funcionalidad misma; un sistema potente pero difícil de usar será rechazado o subutilizado. En conjunto, estos hallazgos establecen que el sistema debe ser preciso, automatizado y, sobre todo, simple de operar desde el primer día. 
+***Bloque 2: Estructura y control del Inventario***
+***P1:*** Teniendo en cuenta la variedad de alimentos, juguetes y accesorios, ¿qué características específicas (como marca, peso del bulto, etapa de la mascota) son indispensables para clasificar y buscar un producto rápidamente en el sistema? 
+***Respuesta:***
+
+
+ 
+
+
 
  
 
