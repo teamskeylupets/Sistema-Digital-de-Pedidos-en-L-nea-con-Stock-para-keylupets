@@ -8,3 +8,5 @@ También en la era digital actual, las empresas que limitan sus ventas únicamen
  
 
 El presente proyecto propone el desarrollo de un sistema digital de pedidos en línea para KeyluPets, que permita a los clientes realizar solicitudes de productos de manera sencilla, mientras que el sistema administrativo actualiza automáticamente el inventario con cada venta registrada. De esta forma, se garantiza un mejor control del stock, evitando inconsistencias y facilitando la toma de decisiones. 
+
+## **Sistema de Gestión de Inventario para Keylupets**
