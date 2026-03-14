@@ -230,6 +230,22 @@ El módulo de ventas debe ser ágil, completo y tolerante a errores. Las respues
 ***Análisis P2:*** La elección del historial trazable responde a una necesidad operativa concreta: respaldar decisiones ante devoluciones o reclamos. Esto implica que el sistema debe incluir un módulo básico de registro de clientes y asociar cada venta a un perfil, sentando además las bases para estrategias de fidelización a futuro. 
 
 
+***Analisis P3:*** El entrevistado es el usuario principal y decisor del sistema. Su perfil abarca tanto la operación diaria como la gestión estratégica, lo que confirma que el sistema debe responder a ambos niveles: operativo para el vendedor y gerencial para el administrador.
+
+
+***Analisis p4:*** El administrador tiene experiencia digital suficiente para adoptar el sistema sin dificultad, pero su principal barrera ha sido la falta de intuitivita. Esto refuerza que el diseño debe ser limpio, directo y con el menor número de pasos posible para completar cada tarea.
+
+
+***Analisis P5:***   La paleta cromática del sistema debe respetar la identidad visual de KeyluPets. El blanco y negro transmite sobriedad y profesionalismo, y combinado con una tipografía moderna genera una interfaz contemporánea y coherente con la imagen de la tienda.
+
+
+***Analisis P6:*** El uso de fotografías propias humaniza el catálogo y genera mayor confianza en el cliente. Técnicamente, implica implementar un módulo de carga y gestión de imágenes por producto, con visualización adaptada según el contexto: inventario, carrito o catálogo en línea. 
+
+
+***Analisis P7:***  La preferencia por mensajes emergentes indica que el usuario valora la retroalimentación visual clara e inmediata. Este tipo de confirmación debe aplicarse a todas las acciones críticas del sistema, usando un lenguaje positivo que refuerce la confianza del vendedor en cada operación.
+
+***Análisis General del Bloque 5***
+Este bloque define la experiencia que debe tener el usuario al interactuar con el sistema. La interfaz debe ser intuitiva, visualmente coherente con la marca KeyluPets, con soporte para imágenes propias y confirmaciones visuales en cada acción importante. El diseño no es un detalle secundario; es un factor determinante para la adopción exitosa del sistema. 
 
 
  
