@@ -183,12 +183,12 @@ Las respuestas de este bloque revelan dos necesidades fundamentales que deben gu
 ***Analisis P3:***  La solución propuesta es simple y efectiva: un control directo sobre cada ítem del carrito sin necesidad de cancelar la venta. Esto refleja la necesidad de un flujo de venta continuo que permita correcciones sobre la marcha, minimizando interrupciones en la atención al cliente y evitando frustraciones tanto para el vendedor como para el comprador.
 
 
-###***Análisis General del Bloque 3***
+###   ***Análisis General del Bloque 3***
 
 El módulo de ventas debe ser ágil, completo y tolerante a errores. Las respuestas de este bloque definen un carrito de compras con búsqueda flexible, resumen visual antes del cobro y controles de ajuste en tiempo real. En conjunto, estas funcionalidades garantizan una experiencia de venta fluida y confiable para el equipo de KeyluPets. 
 
 
-###***Bloque4: Seguridad, Roles y Proyeccion***
+###  ***Bloque4: Seguridad, Roles y Proyeccion***
 
 
 ***P1:*** Para proteger la información del negocio, ¿qué permisos específicos debería tener la persona que atiende en el mostrador (que usará principalmente el carrito de compras) frente a la persona encargada de administrar (que ingresará nueva mercancía al inventario)?
