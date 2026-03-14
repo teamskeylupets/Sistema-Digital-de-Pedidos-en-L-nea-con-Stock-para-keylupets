@@ -22,3 +22,22 @@ Aquí va una justificación rápida del proyecto:
 KeyluPets es una tienda de mascotas ubicada en Soacha, Porvenir, que actualmente gestiona su inventario de forma manual mediante un cuaderno de registro. Este método genera errores frecuentes como olvidos, anotaciones incompletas y diferencias entre el stock físico y el registrado, lo que dificulta la toma de decisiones y pone en riesgo la operación del negocio.
 Además, al limitarse únicamente a la venta presencial, la tienda pierde la oportunidad de llegar a clientes que prefieren realizar sus compras desde casa, lo que representa una desventaja competitiva en el contexto digital actual.
 Por estas razones, se propone el desarrollo de un Sistema Digital de Pedidos en Línea con Stock para KeyluPets, que permita automatizar el control del inventario, reducir los errores humanos en el registro de entradas y salidas, y habilitar un canal de ventas en línea mediante un carrito de compras. De esta forma, el negocio podrá operar con mayor eficiencia, organización y proyección comercial.
+
+
+## **Problema Identificado**
+
+Actualmente, la tienda de mascotas *KeyluPets*, ubicada en Soacha, Porvenir, enfrenta una gestión operativa ineficiente debido a la dependencia absoluta de procesos manuales para el control de sus activos. El uso de un cuaderno físico como única herramienta de registro para las entradas y salidas de mercancía, precios y niveles de stock, ha derivado en una serie de debilidades técnicas y comerciales que limitan el crecimiento del negocio. 
+
+## Análisis de Deficiencias Técnicas:
+
+- Inconsistencia de Datos y Errores Humanos: El registro manual es susceptible a omisiones, anotaciones incompletas y errores de cálculo, lo que genera una brecha crítica entre el inventario físico y el reportado en papel. 
+
+- Ausencia de Trazabilidad y Reportes: No existe un historial estructurado que permita consultar movimientos de productos en tiempo real, imposibilitando la generación de reportes precisos sobre el flujo de caja y la rotación de mercancía. 
+
+- Ruptura de Stock no Detectada: Al no contar con alertas automatizadas, la tienda desconoce con exactitud cuándo un producto de alta rotación (como alimentos para perros y gatos) llega a su nivel crítico, lo que afecta la disponibilidad inmediata para el cliente. 
+
+- Fuga de Información y Capital: La falta de un sistema de auditoría digital facilita la pérdida de mercancía por falta de registro, lo que se traduce en pérdidas económicas directas al no poder justificar las diferencias en el cuadre mensual. 
+
+- Limitación de Canales de Venta: El modelo de negocio se encuentra restringido al mostrador físico, desperdiciando el potencial del mercado digital y las preferencias de consumo actuales de los clientes que buscan realizar pedidos desde su hogar. 
+
+
