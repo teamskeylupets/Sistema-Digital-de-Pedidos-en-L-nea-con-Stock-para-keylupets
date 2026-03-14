@@ -41,13 +41,13 @@ Actualmente, la tienda de mascotas *KeyluPets*, ubicada en Soacha, Porvenir, enf
 - Limitación de Canales de Venta: El modelo de negocio se encuentra restringido al mostrador físico, desperdiciando el potencial del mercado digital y las preferencias de consumo actuales de los clientes que buscan realizar pedidos desde su hogar. 
 
 
-##**Objetivo General**
+## **Objetivo General**
 
 Diseñar una plataforma web integral de gestión comercial bajo una arquitectura cliente-servidor para la tienda KeyluPets. El sistema deberá centralizar la operación mediante un carrito de compras sincronizado a una base de datos relacional, permitiendo la automatización de la persistencia de datos de inventario. El objetivo es garantizar la integridad de la información, optimizar la trazabilidad de los procesos de entrada/salida para asegurar la consistencia del stock en tiempo real frente a la demanda digital y presencial. 
 
  
 
-##**Objetivos Específicos**
+## **Objetivos Específicos**
 
 - Permitir a los clientes realizar pedidos de productos a través de una plataforma digital. 
 
@@ -65,7 +65,7 @@ Diseñar una plataforma web integral de gestión comercial bajo una arquitectura
 
 - El sistema para desarrollar para KeyluPets abarcará los siguientes aspectos: 
 
-Lo que incluye: 
+## **Lo que incluye:**
 
 - Módulo de inventario con registro automático de entradas y salidas de productos, alertas de stock bajo y clasificación por categorías (alimentos, accesorios, juguetes). 
 
@@ -89,7 +89,7 @@ Lo que incluye:
 
  
 
-##**Lo que no incluye:**
+## **Lo que no incluye:**
 
 - Integración con pasarelas de pago en línea (pagos digitales externos). 
 
