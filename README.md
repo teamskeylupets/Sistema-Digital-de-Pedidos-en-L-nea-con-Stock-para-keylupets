@@ -97,7 +97,6 @@ Diseñar una plataforma web integral de gestión comercial bajo una arquitectura
 Objetivo de la entrevista: Identificar las necesidades reales de Keylupets frente a la transición del registro manual a un sistema digitalizado, definiendo los requerimientos clave para la gestión del inventario y la implementación del módulo de ventas (carrito de compras). 
 
 
-|--------------------------------------------------------|
 **Bloque 1: Diagnóstico del proceso actual y transición**
 |--------------------------------------------------------|
 
@@ -124,8 +123,9 @@ Objetivo de la entrevista: Identificar las necesidades reales de Keylupets frent
 
 Las respuestas de este bloque revelan dos necesidades fundamentales que deben guiar el desarrollo del sistema. Por un lado, la automatización del registro de inventario es urgente e innegociable: el método actual no ofrece confiabilidad y expone al negocio a pérdidas de información y errores operativos. Por otro lado, la facilidad de uso es tan importante como la funcionalidad misma; un sistema potente pero difícil de usar será rechazado o subutilizado. En conjunto, estos hallazgos establecen que el sistema debe ser preciso, automatizado y, sobre todo, simple de operar desde el primer día. 
 
-
+|------------------------------------------------|
 **Bloque 2: Estructura y control del Inventario**
+|------------------------------------------------|
 
 
 **P1:** Teniendo en cuenta la variedad de alimentos, juguetes y accesorios, ¿qué características específicas (como marca, peso del bulto, etapa de la mascota) son indispensables para clasificar y buscar un producto rápidamente en el sistema? 
@@ -153,8 +153,9 @@ Las respuestas de este bloque revelan dos necesidades fundamentales que deben gu
 
 ## **Análisis General del Bloque 2:** Este bloque deja claro que el inventario de KeyluPets requiere un sistema flexible, con atributos diferenciados por tipo de producto, alertas automáticas de stock bajo y reportes que orienten decisiones de compra. Estos tres elementos definen el núcleo funcional del módulo de inventario 
 
-
+|-----------------------------------------------------|
 ## **Bloque 3: Módulo de Ventas y Carrito de Compras**
+|-----------------------------------------------------|
 
 
 **P1:** Durante una venta en el mostrador, ¿qué funcionalidades consideran vitales en el "carrito de compras" para agilizar la atención al cliente (ej. búsqueda rápida por nombre/código, cálculo automático de cambio, aplicación de descuentos)? 
@@ -217,8 +218,9 @@ El módulo de ventas debe ser ágil, completo y tolerante a errores. Las respues
  
 **Respuesta:** Una ventana emergente en la pantalla que diga algo como “venta exitosa” o “venta confirmada”.
 
-
+|--------------------------------------------------------------------|
 ## **Análisis Descriptivo — Bloque 4: Seguridad, Roles y Proyección**
+|--------------------------------------------------------------------|
 
 
 **Análisis P1:**  El vendedor opera en un entorno restringido que le permite cumplir su función sin acceder a información sensible ni modificar el catálogo. El administrador tiene control total del sistema. Esta distinción protege la integridad de la información y evita modificaciones accidentales o no autorizadas, siendo un requisito de seguridad fundamental desde el inicio del desarrollo.
